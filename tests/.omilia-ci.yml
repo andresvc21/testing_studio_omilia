@@ -1,0 +1,16 @@
+diamant:
+    app: ProvidenceHealth_dev@SND_ProvidenceHealthPlan_App
+miniapp_id: 4ba21e24-98c0-48c1-a8b9-25f137691e96.SND_ProvidenceHealthPlan_App.Flow.ProvidenceHealth_dev@SND_ProvidenceHealthPlan_App.ProvidenceHealth_dev
+assertions:
+    prompt: true
+    intent: true
+    end_type: true
+    grammar: true
+    action_name: true
+    target_name: true
+    outbound_attached_data: true
+    annotation: false
+    dialog_events: false
+    interpretation: false
+    desination_uri: false
+    prompt_threshold: 0.8
