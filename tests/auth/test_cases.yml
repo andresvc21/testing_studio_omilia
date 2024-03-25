@@ -1,0 +1,30 @@
+---
+- description: Test case for auth_aa.json
+  golden_dialog: auth_aa.json
+  id: 5870d1af-9dd8-4ea5-81f3-1a6067b13705
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+- description: Test case for auth_ab.json
+  golden_dialog: auth_ab.json
+  id: b87f0188-f5b4-45b5-afa8-e2062fef9974
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: provider
+  - utterance: '[HANG UP]'
+- description: Test case for auth_ac.json
+  golden_dialog: auth_ac.json
+  id: eabe5456-3148-4b07-90c0-6249b2b04c3b
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: neither
+  - utterance: '[HANG UP]'
