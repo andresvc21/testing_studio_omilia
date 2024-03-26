@@ -1,7 +1,19 @@
 ---
+- description: Test case for auth_a.json
+  golden_dialog: auth_a.json
+  id: 1b0956bb-fc37-45b6-852a-0a99664123c2
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: '[NO INPUT]'
+  - utterance: '[NO INPUT]'
+  - utterance: banana [NO MATCH]
+  - utterance: ''
 - description: Test case for auth_aa.json
   golden_dialog: auth_aa.json
-  id: 5870d1af-9dd8-4ea5-81f3-1a6067b13705
+  id: 32e1be65-48a1-4574-b595-d40bf531b48b
   session_channel: web-chat
   utterances:
   - utterance: ''
@@ -10,7 +22,7 @@
   - utterance: ''
 - description: Test case for auth_ab.json
   golden_dialog: auth_ab.json
-  id: b87f0188-f5b4-45b5-afa8-e2062fef9974
+  id: 3b031eb1-b1ac-4c68-b7b6-fdad66bfe89e
   session_channel: web-chat
   utterances:
   - utterance: ''
@@ -20,11 +32,214 @@
   - utterance: '[HANG UP]'
 - description: Test case for auth_ac.json
   golden_dialog: auth_ac.json
-  id: eabe5456-3148-4b07-90c0-6249b2b04c3b
+  id: e5263a90-70c3-4d43-b290-86b13fa10da8
   session_channel: web-chat
   utterances:
   - utterance: ''
   - utterance: ''
   - utterance: ''
   - utterance: neither
+  - utterance: '[HANG UP]'
+- description: Test case for auth_ad.json
+  golden_dialog: auth_ad.json
+  id: 3248bdd3-b4ef-492b-9882-2cfa7545d62d
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: member
+  - utterance: '[HANG UP]'
+- description: Test case for auth_ae.json
+  golden_dialog: auth_ae.json
+  id: 4f8b16eb-04ee-4695-8569-81c4b1edf08f
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: provider
+  - utterance: '[HANG UP]'
+- description: Test case for auth_af.json
+  golden_dialog: auth_af.json
+  id: 163fe620-0773-4d95-9a5b-d625e9ccbd26
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: neither
+  - utterance: '[HANG UP]'
+- description: Test case for auth_ag.json
+  golden_dialog: auth_ag.json
+  id: 5f0d4d18-19b7-4dd2-b188-fe7db5dc09a5
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: '[NO INPUT]'
+  - utterance: '[NO INPUT]'
+  - utterance: '[NO INPUT]'
+  - utterance: ''
+- description: Test case for auth_ah.json
+  golden_dialog: auth_ah.json
+  id: 8d0279e9-e1b0-4c0d-9a16-6bb0e803cea4
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: banana [NO MATCH]
+  - utterance: banana [NO MATCH]
+  - utterance: '[NO INPUT]'
+  - utterance: ''
+- description: Test case for auth_ai.json
+  golden_dialog: auth_ai.json
+  id: 0304f77d-24d2-4a61-a44b-f440e2893a45
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: banana [NO MATCH]
+  - utterance: '[NO INPUT]'
+  - utterance: '[NO INPUT]'
+  - utterance: ''
+- description: Test case for auth_aj.json
+  golden_dialog: auth_aj.json
+  id: 3d2a1165-dbb3-4a78-a237-b11cf880cadf
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: agent
+  - utterance: agent
+  - utterance: ''
+- description: Test case for auth_ak.json
+  golden_dialog: auth_ak.json
+  id: 48f0a45a-6d25-4b6c-a59e-c5682a486a9e
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: banana [NO MATCH]
+  - utterance: banana [NO MATCH]
+  - utterance: agent
+  - utterance: agent
+  - utterance: ''
+- description: Test case for auth_al.json
+  golden_dialog: auth_al.json
+  id: c44b28d0-0e61-4b3d-a718-ba82a8b09944
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: '[NO INPUT]'
+  - utterance: '[NO INPUT]'
+  - utterance: agent
+  - utterance: '[NO INPUT]'
+  - utterance: ''
+- description: Test case for auth_am.json
+  golden_dialog: auth_am.json
+  id: e321a1b8-47b6-47db-b9cf-b66edc8f3cbf
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: '[NO INPUT]'
+  - utterance: agent
+  - utterance: banana [NO MATCH]
+  - utterance: banana [NO MATCH]
+  - utterance: '[NO INPUT]'
+  - utterance: ''
+- description: Test case for auth_an.json
+  golden_dialog: auth_an.json
+  id: 3c9463a2-885e-4bc0-ad8f-612e851dbbc0
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: '[HANG UP]'
+- description: Test case for auth_ao.json
+  golden_dialog: auth_ao.json
+  id: 388705f0-535c-49ed-90ed-d811ae22a066
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: provider
+  - utterance: 9/20/1938
+  - utterance: carl gandy
+  - utterance: 'yes'
+  - utterance: '[HANG UP]'
+- description: Test case for auth_ap.json
+  golden_dialog: auth_ap.json
+  id: 1f2f5e41-d237-4db5-b2d2-3ffe65ec3e12
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: provider
+  - utterance: 9/20/1938
+  - utterance: carl gandy
+  - utterance: 'no'
+  - utterance: '[HANG UP]'
+- description: Test case for auth_aq.json
+  golden_dialog: auth_aq.json
+  id: 084dee26-d910-4f55-b400-6fa21ddc2966
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: provider
+  - utterance: 9/20/1938
+  - utterance: carl gandy
+  - utterance: agent
+  - utterance: agent
+  - utterance: ''
+- description: Test case for auth_ar.json
+  golden_dialog: auth_ar.json
+  id: a7a6d8eb-b981-4080-b869-5778b049a7c2
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: '[HANG UP]'
+- description: Test case for auth_as.json
+  golden_dialog: auth_as.json
+  id: ee742af2-1c99-4a48-b937-cbccba6dfa1d
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: provider
+  - utterance: 9/20/1938
+  - utterance: '[NO INPUT]'
+  - utterance: '[NO INPUT]'
+  - utterance: '[NO INPUT]'
+  - utterance: ''
+- description: Test case for auth_at.json
+  golden_dialog: auth_at.json
+  id: c67a9a74-7505-4c01-8a09-d630966919da
+  session_channel: web-chat
+  utterances:
+  - utterance: ''
+  - utterance: ''
+  - utterance: ''
+  - utterance: provider
+  - utterance: 9/20/1938
+  - utterance: banana
+  - utterance: 'yes'
+  - utterance: banana
   - utterance: '[HANG UP]'
